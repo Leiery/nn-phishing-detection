@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+optuna/
+mlruns/
+results/
+runs/
+evaluation_results/
+results_export/
+docker/
+temp/

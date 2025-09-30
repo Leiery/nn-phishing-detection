@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "nn-phishing-detection"
+version = "0.1.0"
+description = "Phishing detection using neural networks"
+authors = ["David Schatz <schatz@cl.uni-heidelberg.de>", "Elizaveta Dovedova <dovedova@cl.uni-heidelberg.de"]
+license = "MIT"
+readme = "README.md"
+
+packages = [{ include = "nn_phishing_detection", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+pandas = "^2.3.2"
+numpy = "^2.3.3"
+scikit-learn = "^1.7.2"
+torch = "^2.8.0"
+transformers = "^4.56.2"
+mlflow = "^3.4.0"
+matplotlib = "^3.10.6"
+tqdm = "^4.67.1"
+openai = "^1.108.1"
+anthropic = "^0.68.0"
+google-generativeai = "^0.8.5"
+hydra-core = "^1.3.2"
+optuna = "^4.5.0"
+seaborn = "^0.13.2"
+psutil = "^7.1.0"
+plotly = "^6.3.0"
+spacy = "^3.8.7"
+tiktoken = "^0.11.0"
+mistralai = "^1.9.10"
+mistral-common = "^1.8.5"
+sentencepiece = "^0.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.2"
+ruff = "^0.13.1"
+pre-commit = "^4.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
