@@ -2,6 +2,9 @@
 
 A phishing email detection system using neural networks (CNN-BiGRU, DistilBERT) and zero-shot classification with large language models.
 
+**Note**: The data directory with the dataset is available for download [here](https://heibox.uni-heidelberg.de/f/29975fc4d03a4e31a30b/?dl=1).
+
+
 ## Table of Contents
 
 - [Phishing Email Detection: A Comparative Study of Neural Networks and LLMs](#phishing-email-detection-a-comparative-study-of-neural-networks-and-llms)

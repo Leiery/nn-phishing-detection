@@ -213,4 +213,5 @@ runs/
 evaluation_results/
 results_export/
 docker/
+data/
 temp/
