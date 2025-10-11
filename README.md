@@ -2,7 +2,7 @@
 
 A phishing email detection system using neural networks (CNN-BiGRU, DistilBERT) and zero-shot classification with large language models.
 
-**Note**: The data directory with the dataset is available for download [here](https://heibox.uni-heidelberg.de/f/29975fc4d03a4e31a30b/?dl=1).
+**Note**: The data directory with the dataset is available for download [here](https://heibox.uni-heidelberg.de/f/29975fc4d03a4e31a30b/?dl=1). Furthermore, the file containing the best models is available for download [here](https://heibox.uni-heidelberg.de/f/e2e18334444343988539/?dl=1).
 
 
 ## Table of Contents
@@ -250,6 +250,7 @@ nn-phishing-detection/
 │   ├── evaluate_model.py             # Model evaluation
 │   └── evaluate_base_distilbert.py   # Base DistilBERT eval
 ├── data/                             # Data directory
+├── models/                           # Model directory
 ├── pyproject.toml                    # Project dependencies
 ├── download_glove.sh                 # Script to download Glove embeddings
 ├── finetune_distilbert.sh            # Script for finetuning of distilbert
